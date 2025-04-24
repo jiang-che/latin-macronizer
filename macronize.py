@@ -18,6 +18,8 @@
 
 MACRONIZER_LIB = '.'
 
+import warnings
+warnings.filterwarnings("ignore", "'cgi' is deprecated", DeprecationWarning)
 import cgi
 import os
 import sys
